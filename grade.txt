@@ -1,0 +1,40 @@
+HW6 Grading
+Compiles: 10	 Each test 4 points.
+Rubric: 10 points for compilation. 4 points for each test – total 20 points.
+
+The tests are: 
+
+1. test hm_create works (doesn't return null)
+2. test hm_get for values that don't exist in the hashmap (does it return -1?)
+3. hm_put a value then hm_get it 
+4. hm_put a value, hm_remove that value, then hm_get should return -1
+5. iterates through text files and puts all the words in the hashmap and then does hm_get for some of those words 
+
+Compilation: 10/10
+Passed tests: 5
+Total: 30
+
+
+Grade for to_grade/olamideoluwalade.c:
+Testing that hm_create does not return null with 1 bucket
+Testing that hm_create does not return null with 15 buckets
+Testing that hm_create does not return null with 15 buckets
+Testing that hm_get returns -1 with unreal values
+Testing that hm_create does not return null with 15 buckets
+Testing that you can get a value you put in
+Testing that hm_create does not return null with 15 buckets
+Testing that you can remove a value you put in and the following get returns -1
+Testing that hm_create does not return null with 15 buckets
+Putting words from D1 into the map
+Putting words from D2 into the map
+Putting words from D3 into the map
+Performing assertions on word counts to check correctness
+Checking D1 word counts
+Checking D2 word counts
+Checking D3 word counts
+PASSED:test1
+PASSED:test2
+PASSED:test3
+PASSED:test4
+PASSED:test5
+TOTAL:5
